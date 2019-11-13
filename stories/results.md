@@ -1,4 +1,4 @@
-## Story: <account>
+## Story: (account story)
 
 ### Properties
 
