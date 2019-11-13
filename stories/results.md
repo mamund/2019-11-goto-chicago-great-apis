@@ -6,12 +6,12 @@
  * Address.street
  * Address.city
  * Address.province
- * Address.ontry
+ * Address.country
  * Address.postalcode
  * telephone
- * email
- * createDate
- * updatedDate
+ * email 
+ * createDate [UTC Date]
+ * updatedDate [UTC Date]
  * status [suspended, active, closed, pending]
 
 ### Actions:
