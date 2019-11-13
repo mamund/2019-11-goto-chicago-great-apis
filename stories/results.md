@@ -1,7 +1,7 @@
-## Results
+## Story: <account>
 
-## Properties
+### Properties
 
-## Actions
+### Actions
 
-## Constrained Values
+### Constrained Values
