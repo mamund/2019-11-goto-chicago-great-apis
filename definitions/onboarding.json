@@ -1,0 +1,295 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Onboarding API",
+        "version": "",
+        "description": "Onboarding API for BigCo, Inc"
+    },
+    "host": "onboarding.example.org",
+    "basePath": "/",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/onboarding": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "wipForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Home Page",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/wip": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "wipForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show WIP Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            },
+            "post": {
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": []
+                            }
+                        }
+                    }
+                },
+                "summary": "Create WIP",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            },
+            "put": {
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": []
+                            }
+                        }
+                    }
+                },
+                "summary": "Update WIP",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/company": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "companyForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Company Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/account": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "accountForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Account Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/activity": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "activityForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Account Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/commit": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "comitForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Commit Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            },
+            "post": {
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": []
+                            }
+                        }
+                    }
+                },
+                "summary": "Commit Onboarding",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        },
+        "/onboarding/cancel": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": [],
+                                "links": [
+                                    {
+                                        "name": "cancelForm"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "summary": "Show Cancel Form",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            },
+            "post": {
+                "responses": {
+                    "201": {
+                        "description": "Created",
+                        "headers": {},
+                        "examples": {
+                            "application/json": {
+                                "onboarding": []
+                            }
+                        }
+                    }
+                },
+                "summary": "Cancel Onboarding",
+                "description": "",
+                "tags": [],
+                "parameters": [],
+                "produces": [
+                    "application/json"
+                ]
+            }
+        }
+    },
+    "definitions": {
+        "Onboarding": {},
+        "WIP": {},
+        "Company": {},
+        "Account": {},
+        "Activity": {},
+        "Commit": {},
+        "Cancel": {}
+    },
+    "securityDefinitions": {},
+    "tags": []
+}

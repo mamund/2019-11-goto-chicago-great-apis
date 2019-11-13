@@ -1,0 +1,11 @@
+home->+WIP: startOnboarding(onboardingId)
+WIP->+customerData: collectCustomerData(companyName, email, companyStatus)
+customerData-->-WIP: saveToWIP(companyName, email, companyStatus)
+WIP->+accountData: collectAccountData(accountType, accountStatus)
+accountData-->-WIP:saveToWIP(accountType, accountStatus)
+WIP->+activityData: collectActivityData(activityType, dateScheduled, activityStatus)
+activityData-->-WIP:saveToWIP(acivityType, dateScheduled, activityStatus)
+WIP-->+commitWIP:completeOnboarding(onboardingId)
+commitWIP->-home:goHome
+WIP-->+cancelWIP:cancelOnboarding(onboardingId)
+cancelWIP->-home:goHome

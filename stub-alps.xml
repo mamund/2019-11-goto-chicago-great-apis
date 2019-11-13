@@ -1,0 +1,69 @@
+<alps version="1.0">
+    <doc>Onboarding API Profile</doc>
+
+    <!-- properties -->
+    <descriptor id="onboardingId" type="semantic" />    
+    <descriptor id="dateCreated" type="semantic" />    
+    <descriptor id="dateUpdated" type="semantic" />
+    <descriptor href="#activity" />    
+    <descriptor id="companyStatus" type="semantic" />
+    <descriptor id="accountStatus" type="semantic" />
+    <descriptor id="activityStatus" type="semantic" />
+    <descriptor id="status" type="semantic" />
+
+    <!-- actions -->
+    <descriptor id="home" type="safe" />
+
+    <descriptor id="startOnboarding" type="unsafe">
+        <descriptor href="#onboardingId" />
+    </descriptor>
+
+    <descriptor id="searchOnboardingRecords" type="safe" rt="#work-in-progress">
+        <descriptor href="#onboardingId" />
+        <descriptor href="#companyname" />
+        <descriptor href="#activityType" />
+    </descriptor>
+
+    <!-- containers -->
+    <descriptor id="work-in-progres" type="semantic">
+        <descriptor id="activityType" type="semantic" />
+        <descriptor id="companyId" type="semantic" />
+        <descriptor id="accountId" type="semantic" />
+        <descriptor id="dataScheduled" type="semantic" />
+        <descriptor id="notes" type="semantic" />
+    </descriptor>
+
+    <!-- resources -->
+    
+</alps>
+
+
+
+<!--
+
+    <descriptor id="onboardingId" />
+    <descriptor id="status" />
+    <descriptor id="dateCreated" />
+    <descriptor id="dateUpdated" />
+
+    <descriptor id="StartOnboarding" type="unsafe" rt="work-in-progress" />
+    <descriptor id="CollectionCompanyData" type="safe" />
+    <descriptor id="SaveCompanyData" type="unsafe" rt="work-in-progress"/>
+
+    <descriptor id="work-in-progress">
+        <descriptor href="#onboardingId" />
+        <descriptor href="#status" />
+        <descriptor href="#dateCreated" />
+        <descriptor href="#dateUpdated" />
+    <descriptor>
+
+    <descriptor id="home">
+        <descriptor href="#work-in-progress" />
+        <descriptor href="StartOnboarding" />   
+    </descriptor>
+
+
+-->
+
+
+

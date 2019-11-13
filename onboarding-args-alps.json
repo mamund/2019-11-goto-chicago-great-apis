@@ -1,0 +1,205 @@
+{
+  "alps": {
+    "version": "1.0",
+    "title": "onboarding-args.wsd",
+    "doc": {
+      "type": "text",
+      "value": "ALPS document for onboarding-args.wsd"
+    },
+    "descriptors": [
+      {
+        "id": "onboardingId",
+        "type": "semantic"
+      },
+      {
+        "id": "companyName",
+        "type": "semantic"
+      },
+      {
+        "id": " email",
+        "type": "semantic"
+      },
+      {
+        "id": " companyStatus",
+        "type": "semantic"
+      },
+      {
+        "id": "accountType",
+        "type": "semantic"
+      },
+      {
+        "id": " accountStatus",
+        "type": "semantic"
+      },
+      {
+        "id": "activityType",
+        "type": "semantic"
+      },
+      {
+        "id": " dateScheduled",
+        "type": "semantic"
+      },
+      {
+        "id": " activityStatus",
+        "type": "semantic"
+      },
+      {
+        "id": "acivityType",
+        "type": "semantic"
+      },
+      {
+        "id": "home",
+        "type": "group"
+      },
+      {
+        "id": "WIP",
+        "type": "group"
+      },
+      {
+        "id": "customerData",
+        "type": "group"
+      },
+      {
+        "id": "accountData",
+        "type": "group"
+      },
+      {
+        "id": "activityData",
+        "type": "group"
+      },
+      {
+        "id": "commitWIP",
+        "type": "group"
+      },
+      {
+        "id": "cancelWIP",
+        "type": "group"
+      },
+      {
+        "id": "startOnboarding",
+        "type": "safe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#onboardingId"
+          }
+        ]
+      },
+      {
+        "id": "collectCustomerData",
+        "type": "safe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#companyName"
+          },
+          {
+            "href": "# email"
+          },
+          {
+            "href": "# companyStatus"
+          }
+        ]
+      },
+      {
+        "id": "saveToWIP",
+        "type": "unsafe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#companyName"
+          },
+          {
+            "href": "# email"
+          },
+          {
+            "href": "# companyStatus"
+          }
+        ]
+      },
+      {
+        "id": "collectAccountData",
+        "type": "safe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#accountType"
+          },
+          {
+            "href": "# accountStatus"
+          }
+        ]
+      },
+      {
+        "id": "saveToWIP",
+        "type": "unsafe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#accountType"
+          },
+          {
+            "href": "# accountStatus"
+          }
+        ]
+      },
+      {
+        "id": "collectActivityData",
+        "type": "safe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#activityType"
+          },
+          {
+            "href": "# dateScheduled"
+          },
+          {
+            "href": "# activityStatus"
+          }
+        ]
+      },
+      {
+        "id": "saveToWIP",
+        "type": "unsafe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#acivityType"
+          },
+          {
+            "href": "# dateScheduled"
+          },
+          {
+            "href": "# activityStatus"
+          }
+        ]
+      },
+      {
+        "id": "completeOnboarding",
+        "type": "unsafe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#onboardingId"
+          }
+        ]
+      },
+      {
+        "id": "goHome",
+        "type": "safe",
+        "rtn": ""
+      },
+      {
+        "id": "cancelOnboarding",
+        "type": "unsafe",
+        "rtn": "",
+        "descriptors": [
+          {
+            "href": "#onboardingId"
+          }
+        ]
+      }
+    ]
+  }
+}

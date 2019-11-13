@@ -1,0 +1,114 @@
+{
+  "account": [
+    {
+      "id": "1c0x0mzp83t",
+      "division": "DryGoods",
+      "companyId": "1or2ab05imf",
+      "spendingLimit": "",
+      "discountPercentage": "",
+      "status": "active",
+      "dateCreated": "2019-02-25T08:12:00.579Z",
+      "dateUpdated": "2019-02-25T08:12:00.579Z",
+      "links": [
+        {
+          "rel": "read",
+          "href": "/account/1c0x0mzp83t"
+        },
+        {
+          "rel": "update",
+          "href": "/account/1c0x0mzp83t"
+        },
+        {
+          "rel": "delete",
+          "href": "/account/1c0x0mzp83t"
+        }
+      ]
+    },
+    {
+      "id": "1yswvm4n0q",
+      "division": "DryGoods",
+      "companyId": "21r1aeuj87e",
+      "spendingLimit": "",
+      "discountPercentage": "",
+      "status": "active",
+      "dateCreated": "2019-02-25T08:13:16.099Z",
+      "dateUpdated": "2019-02-25T08:13:16.099Z",
+      "links": [
+        {
+          "rel": "read",
+          "href": "/account/1yswvm4n0q"
+        },
+        {
+          "rel": "update",
+          "href": "/account/1yswvm4n0q"
+        },
+        {
+          "rel": "delete",
+          "href": "/account/1yswvm4n0q"
+        }
+      ]
+    },
+    {
+      "id": "3kzbw0ze078",
+      "division": "Military",
+      "companyId": "21r1aeuj87e",
+      "spendingLimit": "",
+      "discountPercentage": "",
+      "status": "active",
+      "dateCreated": "2019-02-25T08:12:51.530Z",
+      "dateUpdated": "2019-02-25T08:12:51.530Z",
+      "links": [
+        {
+          "rel": "read",
+          "href": "/account/3kzbw0ze078"
+        },
+        {
+          "rel": "update",
+          "href": "/account/3kzbw0ze078"
+        },
+        {
+          "rel": "delete",
+          "href": "/account/3kzbw0ze078"
+        }
+      ]
+    },
+    {
+      "id": "6x7hpmtxbss",
+      "division": "Pharmacy",
+      "companyId": "1or2ab05imf",
+      "spendingLimit": "",
+      "discountPercentage": "",
+      "status": "active",
+      "dateCreated": "2019-02-25T08:12:36.747Z",
+      "dateUpdated": "2019-02-25T08:12:36.747Z",
+      "links": [
+        {
+          "rel": "read",
+          "href": "/account/6x7hpmtxbss"
+        },
+        {
+          "rel": "update",
+          "href": "/account/6x7hpmtxbss"
+        },
+        {
+          "rel": "delete",
+          "href": "/account/6x7hpmtxbss"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "list",
+      "href": "/account/list"
+    },
+    {
+      "rel": "add",
+      "href": "/account/list"
+    },
+    {
+      "rel": "home",
+      "href": "/account/"
+    }
+  ]
+}

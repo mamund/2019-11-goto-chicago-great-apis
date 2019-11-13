@@ -1,0 +1,170 @@
+FORMAT: 1A
+HOST: http://onboarding.example.org/
+
+# Onboarding API
+
+Onboarding API for BigCo, Inc
+
+## Onboarding [/onboarding]
+
+### Show Home Page [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"wipForm"}
+            ]
+        }
+
+## WIP [/onboarding/wip]
+
+### Show WIP Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"wipForm"}
+            ]
+        }
+
+### Create WIP [POST]
+
++ Request (application/x-www-form-urlencoded)
+
+        onboardingId="1q2w3e4r5t"
+        
++ Response 201 (application/json)   
+    
+    + Headers
+        
+            Location: /onboarding
+            
+    + Body
+
+            {
+                "onboarding" :[]
+            }
+            
+### Update WIP [PUT]
+
++ Request (application/x-www-form-urlencoded)
+
+        onboardingId="1q2w3e4r5t"
+        
++ Response 201 (application/json)   
+    
+    + Headers
+        
+            Location: /onboarding
+            
+    + Body
+
+            {
+                "onboarding" :[]
+            }
+
+## Company [/onboarding/company]
+
+### Show Company Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"companyForm"}
+            ]
+        }
+
+## Account [/onboarding/account]
+
+### Show Account Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"accountForm"}
+            ]
+        }
+
+## Activity [/onboarding/activity]
+
+### Show Account Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"activityForm"}
+            ]
+        }
+
+## Commit [/onboarding/commit]
+
+### Show Commit Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"comitForm"}
+            ]
+        }
+
+### Commit Onboarding [POST]
+
++ Request (application/x-www-form-urlencoded)
+
+        onboardingId="1q2w3e4r5t"
+        
++ Response 201 (application/json)   
+    
+    + Headers
+        
+            Location: /onboarding
+            
+    + Body
+
+            {
+                "onboarding" :[]
+            }
+
+## Cancel [/onboarding/cancel]
+
+### Show Cancel Form [GET]
+
++ Response 200 (application/json)
+
+        {
+            "onboarding" :[],
+            "links": [
+                {"name":"cancelForm"}
+            ]
+        }
+
+### Cancel Onboarding [POST]
+
++ Request (application/x-www-form-urlencoded)
+
+        onboardingId="1q2w3e4r5t"
+        
++ Response 201 (application/json)   
+    
+    + Headers
+        
+            Location: /onboarding
+            
+    + Body
+
+            {
+                "onboarding" :[]
+            }
+
