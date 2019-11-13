@@ -1,6 +1,6 @@
-# 2019-04 GOTO Chicago Great APIs Workshop
+# 2019-11 GOTO Chicago Great APIs Workshop
 
-#### GOTO Chicago Workshop Page: https://gotochgo.com/2019/workshops/157
+#### GOTO Chicago Workshop Page: https://gotochgo.com/fall-2019/masterclasses/224/design-and-build-great-apis-one-day-workshop
 
 ## Description
 
