@@ -46,7 +46,7 @@
     "start": "npm-run-all --parallel serve-static open-static"
   },
   "dependencies": {
-    "@braintree/sanitize-url": "^2.0.2",
+    "@braintree/sanitize-url": "^6.0.0",
     "@kyleshockey/js-yaml": "^1.0.1",
     "@kyleshockey/object-assign-deep": "^0.4.2",
     "@kyleshockey/xml": "^1.0.2",
